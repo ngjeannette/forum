@@ -1,0 +1,94 @@
+.content{
+     margin: 20px 40px;
+}
+
+.card {
+    max-width: 300px;
+    min-width: 300px;
+    margin: 15px !important;  
+    .card-content{
+        .content{
+            margin: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+}
+
+.navbar-start{
+    display:flex !important;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.loaderWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.userQindividual {
+    .card{
+        margin: 15px  0 !important;
+    }
+}
+
+form .control:nth-child(2n) {
+    margin: 10px 0;
+}
+
+.loading {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-loading{
+    border: none;
+    font-size: 8em !important;
+}
+
+.answers {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.answerLiked{
+    display: flex;
+    margin: 10px 0;
+}
+
+.question-answer-card {
+    display:flex;
+    flex-direction: column;
+}
+
+.form {
+    max-width: 400px;
+}
+
+.button.is-danger{
+    margin-bottom: 10px;
+}
+
+.likeAnswer{
+    display: flex;
+    button {
+        margin-right: 10px;
+    }
+}
+
+img {
+    object-fit: contain;
+}
+
+textarea{
+    resize: none !important;
+}
